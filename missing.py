@@ -52,6 +52,7 @@ def main(args):
                     g_tree = gtreebak
                 else:
                     break
+        g_tree.suppress_unifurcations()
         print(g_tree.newick())
 
 
